@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+  
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <span class="logo_name">Dashboard</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">PROvida</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Usuarios</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Pagos</span>
+          </a>
+        </li>
+        <li>
+          <a href="categry">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Proyectos</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">Nuevo</span>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+        
+      </ul>
+  </div>
+
+  
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Dashboard Proyectos</h1>
+            <span class="color-text-a"></span>
+          </div>
+  
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  </section><!-- End Intro Single-->
+  <div class="container">
+    <div class="col-xl-10">
+      <div class="card">
+        <div class="card-header border-0">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3 class="mb-0">Lista de Proyectos</h3>
+            </div>
+            <div class="col text-right">
+              <a href="#!" class="btn btn-sm btn-success">Ver Todos</a>
+            </div>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <!-- Projects table -->
+          <table class="table align-items-center table-flush">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Campañas</th>
+                <th scope="col">Porcentaje</th>
+              
+                <th scope="col">Accion</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+  
+             <!-- <tr *ngFor="let campaign of campaigns | filter:term; let i = index">
+                <th scope="row">
+                  {{ campaign.title }}
+  
+                </th>-->
+                <td>
+                  4,807
+                </td>
+                <td>
+                  <div class="d-flex align-items-center">
+                    <span class="mr-2">80%</span>
+                    <div>
+                      <div class="progress">
+                        <div class="progress-bar bg-gradient-primary" role="progressbar" aria-valuenow="80"
+                          aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-success btn-sm "
+                    >Publicar</button>
+                  <button type="button" class="btn btn-primary btn-sm"
+                    >Observar</button>
+                  <button type="button" class="btn btn-danger btn-sm"
+                   >Rechazar</button>
+  
+                </td>
+              </tr>
+  
+  
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row justify-content-lg-end">
+      <div class="col-md-8 ">
+        <div class="search">
+          <!--<input type="text" [(ngModel)]="term" class="searchTerm" placeholder="What are you looking for?">-->
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+</body>
+</html>
+

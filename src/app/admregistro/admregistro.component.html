@@ -1,0 +1,84 @@
+
+
+<div class="page-header "
+style="background-image: url('../assets/images/1.svg'); background-size: cover; background-position: top center;">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+      <div class="card card-login">
+        <form #registrationForm="" (ngSubmit)="submitSignup()">
+        <div class="card-header card-header-success text-center">
+          <h4 class="card-title">Registro</h4>
+          <div class="social-line">
+           <a href="#i" class="btn btn-just-icon btn-link"> <i class="material-icons">lock_outline</i></a>
+            <a href="#i" class="btn btn-just-icon btn-link"><i class="material-icons">face</i></a>
+            <a href="#i" class="btn btn-just-icon btn-link"><i class="material-icons">email</i></a>
+             
+           
+           
+          </div>
+            
+
+          </div>
+          <p class="description text-center">Registro</p>
+       
+          
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="material-icons">face</i>
+              </span>
+            </div>
+
+            
+            <div class="input-group-append">
+              
+                <input type="text" class="form-control" name="name" id="name"  [(ngModel)]="form.name">
+            </div>
+
+          </div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="material-icons">email</i>
+              </span>
+            
+            </div>
+           
+            <div class="input-group-append">
+           
+                <input type="email" class="form-control" name="email" id="email"  [(ngModel)]="form.email">
+              
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="material-icons">lock_outline</i>
+                  </span>
+                
+                </div>
+            <div class="input-group-append">
+           
+                <input type="password" class="form-control" name="password" id="password"  [(ngModel)]="form.password">
+              
+            </div>
+
+          </div>
+          
+          
+          <div class="footer text-center">
+            <button class="btn btn-success" type="submit">Registrar</button>
+          </div>
+          </div>
+
+   </form>
+      </div>
+
+      
+    
+
+
+  </div>
+</div>
+
+</div>
